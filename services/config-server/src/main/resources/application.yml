@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: native
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        native:
+
+server:
+  port: 8888
+
+
+
+
